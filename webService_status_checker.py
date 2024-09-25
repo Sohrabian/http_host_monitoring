@@ -48,7 +48,7 @@ def check_status_urls(urls):
             status = get_status(code)
             # report status
             if status =='ERROR':
-                urlMain= ['https://flightpermission.cao.ir/','https://caa.gov.ir','https://medical.cao.ir','https://techcomit.cao.ir']
+                urlMain= ['https://url_1/','https://url_2']
                 if url in urlMain:
                     root = Tk()
                     root.withdraw()
@@ -61,32 +61,7 @@ def check_status_urls(urls):
 
  
 # list of urls to check
-URLS = ['https://pel.cao.ir',
-'https://farasa.cao.ir',
-'https://techcomit.cao.ir',
-'https://aviation.cao.ir',
-'https://uas.cao.ir',
-'https://regulation.caa.gov.ir',
-'https://complaint.cao.ir',
-'https://tariff.cao.ir',
-'https://bpms.cao.ir',
-'https://billing.cao.ir',
-'https://e-agency.cao.ir',
-'https://aig.cao.ir',
-'https://agencylist.cao.ir',
-'https://voluntary.cao.ir',
-'https://fleet.cao.ir',
-'https://accert.cao.ir',
-'https://dpequip.cao.ir',
-'https://sim.cao.ir',
-'https://acreg.cao.ir',
-'https://acpermit.cao.ir',
-'https://flightopr.cao.ir',
-'https://e-agencylist.cao.ir',
-'https://customs.cao.ir',
-'https://caa.gov.ir',
-'https://flightpermission.cao.ir',
-'https://medical.cao.ir']
+URLS = ['url_1','url_2','url_3']
 
 # check all urls
 
